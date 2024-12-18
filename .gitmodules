@@ -1,0 +1,3 @@
+[submodule "react_foodapp"]
+	path = react_foodapp
+	url = https://github.com/Varaprasadchilakanti/QuickFeast-Frontend.git

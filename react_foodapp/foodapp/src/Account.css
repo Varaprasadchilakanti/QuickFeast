@@ -1,0 +1,31 @@
+.account-page {
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .account-actions button {
+    margin-right: 10px;
+  }
+  
+  .dark-theme .account-page {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  

@@ -1,0 +1,148 @@
+Agenda
+food delivery app
+
+Note:
+now when the user enters the details on the register page store them in the database in MongoDB with ID as their email address, and contain details name, email, country, and password
+if the email address entered by the user is unique prompt/alert the user that successfully registered. and store the details
+if the email address already exists in the database then prompt/alert the user that the account already exists.
+when a user enters details email and password retrieve those details for verifying/validating the login details from the MongoDB database.
+if the user logs in and selects the items goes to the cart page and enters the details as delivery address, and payment method when clicking on place order then after promoting/alerting the user  store those details in the database in/under that user ID(email address) as order_i where "i is 1,2,3....", There are the times the user places the order, and display all these details in Account page with clean UI
+
+let's proceed with this one by one/ step by step   
+also, add the contact page which contains app owner details or contact details for the user to contact the company if any queries regarding the service
+if possible let's integrate gmail usage such that users can send mail or create the database in MongoDB under food app collection Queries which contains id (user email address) and query :string
+
+Let's first implement a contact page and later perform remaining  features
+guide me step by step
+ 
+FOODDELIVERYAPP/
+> node_foodapp
+> config
+> controllers
+> middleware
+> models
+> routes
+   > auth.js
+   > items.js
+   > orders.js
+   > queries.js
+   > users.js
+> node_modules
+*.env
+JS index.js
+{} package-lock.json
+{} package.json
+
+
+node_foodapp/
+│
+├── config/
+│   ├── database.js
+│   ├── logger.js
+│   ├── swagger.js
+│
+├── controllers/
+│   ├── authController.js
+│   ├── itemController.js
+│   ├── orderController.js
+│   ├── queryController.js
+│   └── userController.js
+│
+├── middleware/
+│   └── auth.js
+│   ├── errorHandler.js
+│   ├── rateLimiter.js
+│
+├── models/
+│   ├── Item.js
+│   ├── Order.js
+│   ├── Query.js
+│   ├── Restaurant.js
+│   └── User.js
+│
+├── routes/
+│   ├── auth.js
+│   ├── items.js
+│   ├── orders.js
+│   ├── queries.js
+│   └── users.js
+│
+├── .env
+├── index.js
+└── package.json
+
+
+FOODDELIVERYAPP/
+> node_foodapp
+> node_modules
+> react_foodapp
+~$ojectPlan.docx
+≡ Agenda.txt
+{} package-lock.json
+{} package.json
+ProjectPlan.docx
+
+✓ node_modules
+> .bin
+> @popperjs
+> @remix-run
+> bootstrap
+> js-tokens
+> loose-envify
+> react
+> react-dom
+> react-router
+> react-router-dom
+> scheduler
+{} .package-lock.json
+
+
+
+backend:
+✓ node_foodapp
+> node_modules
+*.env
+JS index.js
+{} package-lock.json
+{} package.json
+
+
+frontend:
+
+✓ react_foodapp\foodapp
+> node_modules
+> public
+> src
+.gitignore
+{} package-lock.json
+{} package.json
+README.md
+
+✓public
+favicon.ico
+<> index.html
+logo192.png
+logo512.png
+{} manifest.json
+robots.txt
+
+✓src
+JS Account.js
+# App.css
+JS App.js
+JS App.test.js
+JS Cart.js
+JS Contact.js
+# index.css
+JS index.js
+# Login.css
+JS Login.js
+logo.svg
+# Register.css
+JS Register.js
+JS reportWebVitals.js
+JS setupTests.js
+◆.gitignore
+{} package-lock.json
+{} package.json
+README.md
